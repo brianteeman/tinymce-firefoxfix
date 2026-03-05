@@ -9,7 +9,7 @@ Make sure you download the correct fix for your version of joomla
 
 ## Joomla 4 Support (4.4.x)
 The `J4` folder contains a backported version of the fix specifically adapted for the Joomla 4 TinyMCE API. 
-*Tested and verified on Joomla 4.4.x installations.*
+*Tested in a production environment by a content creation agency for 2 days with no issues reported*
 
 > [!IMPORTANT]
 > If after replacing the two files and clearing the browser cache you still have problems then your site is using the gzipped version of the javascript which is NOT included in the update. You should delete the  file media/plg_editors/js/tinymce.min.js.gz to ensure that the correct hotfix files are being used by your site
